@@ -5,6 +5,11 @@
       "ProjectGuid": "1f15e5d8-69de-4600-ab80-1827282a0ed9",
       "DisplayName": "Rolo",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1

@@ -12,3 +12,8 @@ C:\Users\crann\Desktop\Visual Studio\Rolo\Rolo\obj\Debug\Rolo.pdb
 C:\Users\crann\Desktop\Visual Studio\Rolo\Rolo\bin\Debug\Newtonsoft.Json.dll
 C:\Users\crann\Desktop\Visual Studio\Rolo\Rolo\bin\Debug\Newtonsoft.Json.xml
 C:\Users\crann\Desktop\Visual Studio\Rolo\Rolo\obj\Debug\Rolo.csproj.CopyComplete
+C:\Users\crann\Desktop\Visual Studio\Rolo\Rolo\bin\Debug\Rolo.exe.manifest
+C:\Users\crann\Desktop\Visual Studio\Rolo\Rolo\bin\Debug\Rolo.application
+C:\Users\crann\Desktop\Visual Studio\Rolo\Rolo\obj\Debug\Rolo.TrustInfo.xml
+C:\Users\crann\Desktop\Visual Studio\Rolo\Rolo\obj\Debug\Rolo.exe.manifest
+C:\Users\crann\Desktop\Visual Studio\Rolo\Rolo\obj\Debug\Rolo.application
