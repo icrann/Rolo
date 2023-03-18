@@ -1,0 +1,14 @@
+C:\Users\crann\Desktop\Visual Studio\Rolo\Rolo\bin\Debug\Rolo.exe.config
+C:\Users\crann\Desktop\Visual Studio\Rolo\Rolo\bin\Debug\Rolo.exe
+C:\Users\crann\Desktop\Visual Studio\Rolo\Rolo\bin\Debug\Rolo.pdb
+C:\Users\crann\Desktop\Visual Studio\Rolo\Rolo\obj\Debug\Rolo.csproj.AssemblyReference.cache
+C:\Users\crann\Desktop\Visual Studio\Rolo\Rolo\obj\Debug\Rolo.csproj.SuggestedBindingRedirects.cache
+C:\Users\crann\Desktop\Visual Studio\Rolo\Rolo\obj\Debug\Rolo.Form1.resources
+C:\Users\crann\Desktop\Visual Studio\Rolo\Rolo\obj\Debug\Rolo.Properties.Resources.resources
+C:\Users\crann\Desktop\Visual Studio\Rolo\Rolo\obj\Debug\Rolo.csproj.GenerateResource.cache
+C:\Users\crann\Desktop\Visual Studio\Rolo\Rolo\obj\Debug\Rolo.csproj.CoreCompileInputs.cache
+C:\Users\crann\Desktop\Visual Studio\Rolo\Rolo\obj\Debug\Rolo.exe
+C:\Users\crann\Desktop\Visual Studio\Rolo\Rolo\obj\Debug\Rolo.pdb
+C:\Users\crann\Desktop\Visual Studio\Rolo\Rolo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\crann\Desktop\Visual Studio\Rolo\Rolo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\crann\Desktop\Visual Studio\Rolo\Rolo\obj\Debug\Rolo.csproj.CopyComplete
