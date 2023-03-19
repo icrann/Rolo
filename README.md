@@ -9,5 +9,7 @@ Roblox FPS Unlocker
 Rolo was written in C# using Visual Studio 2022 with the .NET framework version 4.7.2
 Everything inside the Rolo folder can be opened in Visual Studio for editing.
 
+<hr>
+
 <h3 style="color: grey;">Download Count</h3>
-50+ (Last Updated 19/03/2023)
+80+ (Last Updated 19/03/2023)
