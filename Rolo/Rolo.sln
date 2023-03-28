@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
+VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rolo", "Rolo\Rolo.csproj", "{1F15E5D8-69DE-4600-AB80-1827282A0ED9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rolo", "Rolo\Rolo.csproj", "{0FCF4A62-832D-4E7F-953D-0156BDE86E99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1F15E5D8-69DE-4600-AB80-1827282A0ED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1F15E5D8-69DE-4600-AB80-1827282A0ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1F15E5D8-69DE-4600-AB80-1827282A0ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1F15E5D8-69DE-4600-AB80-1827282A0ED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FCF4A62-832D-4E7F-953D-0156BDE86E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FCF4A62-832D-4E7F-953D-0156BDE86E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FCF4A62-832D-4E7F-953D-0156BDE86E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FCF4A62-832D-4E7F-953D-0156BDE86E99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {63FB466F-2940-484D-92D1-AFCE62A3FE9D}
+		SolutionGuid = {3CD2B0D0-F5DC-4FBF-83F5-EE6D7040E828}
 	EndGlobalSection
 EndGlobal
