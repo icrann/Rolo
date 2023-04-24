@@ -9,7 +9,12 @@ Roblox FPS Unlocker
 Rolo was written in C# using Visual Studio 2022 with the .NET framework version 4.7.2
 Everything inside the Rolo folder can be opened in Visual Studio for editing.
 
+<h2>Virus Flagging</h2>
+I understand that Rolo is being flagged by antivirus software, therefore I've included a virus total link so that you can see for yourself the legitimacy of the software. Feel free to do as much rooting through the source code as you want too. I've nothing to hide.
+
+<a href="https://www.virustotal.com/gui/file/a2cc1101491ef8053dfa8b49268987e8f5c3e4824a7bf0f2084d058b401500fa">VirusTotal</a>
+
 <hr>
 
 <h3 style="color: grey;">Download Count</h3>
-250+ (Last Updated 30/03/2023)
+500+ (Last Updated 24/04/2023)
