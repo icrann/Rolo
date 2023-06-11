@@ -11,17 +11,13 @@ using System.IO;
 using Newtonsoft.Json;
 using System.Xml;
 
-namespace Rolo
-{
-    public partial class Form1 : Form
-    {
-        public Form1()
-        {
+namespace Rolo {
+    public partial class Form1 : Form {
+        public Form1() {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
+        private void button1_Click(object sender, EventArgs e) {
             // Get the path to the latest version of Roblox
             string robloxPath = GetLatestRobloxPath();
 
@@ -33,12 +29,9 @@ namespace Rolo
             ClientAppSettings clientSettings = new ClientAppSettings();
 
             // Check if an item has been selected in the comboBox1 control
-            if (comboBox1.SelectedItem != null)
-            {
-                clientSettings.DFIntTaskSchedulerTargetFps = int.Parse(comboBox1.SelectedItem.ToString());
-            }
-            else
-            {
+            if (textBox2.Text != null) {
+                clientSettings.DFIntTaskSchedulerTargetFps = int.Parse(textBox2.Text.ToString());
+            } else {
                 // Display an error message if no item has been selected
                 MessageBox.Show("Please select a value from the drop-down list.");
                 return;
@@ -51,21 +44,31 @@ namespace Rolo
             MessageBox.Show("Roblox FPS cap unlocked.");
         }
 
-        private string GetLatestRobloxPath()
-        {
-            string robloxVersionsPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Roblox\\Versions");
+        private string GetLatestRobloxPath() {
+            if (textBox1.Text == "Default") {
+                string robloxVersionsPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Roblox\\Versions");
 
-            // Get the latest directory in the Roblox versions folder
-            DirectoryInfo latestDirectory = new DirectoryInfo(robloxVersionsPath).GetDirectories().OrderByDescending(d => d.CreationTime).FirstOrDefault();
+                // Get the latest directory in the Roblox versions folder
+                DirectoryInfo latestDirectory = new DirectoryInfo(robloxVersionsPath).GetDirectories().OrderByDescending(d => d.CreationTime).FirstOrDefault();
 
-            if (latestDirectory != null)
-            {
-                return latestDirectory.FullName;
-            }
-            else
-            {
-                MessageBox.Show("Unable to locate Roblox installation directory.");
-                throw new Exception("Unable to locate Roblox installation directory.");
+                if (latestDirectory != null) {
+                    return latestDirectory.FullName;
+                } else {
+                    MessageBox.Show("Unable to locate Roblox installation directory.");
+                    throw new Exception("Unable to locate Roblox installation directory.");
+                }
+            } else {
+                string robloxVersionsPath = Path.Combine(textBox1.Text, "Versions");
+
+                // Get the latest directory in the Roblox versions folder
+                DirectoryInfo latestDirectory = new DirectoryInfo(robloxVersionsPath).GetDirectories().OrderByDescending(d => d.CreationTime).FirstOrDefault();
+
+                if (latestDirectory != null) {
+                    return latestDirectory.FullName;
+                } else {
+                    MessageBox.Show("Unable to locate Roblox installation directory.");
+                    throw new Exception("Unable to locate Roblox installation directory.");
+                }
             }
         }
 
@@ -76,13 +79,10 @@ namespace Rolo
 
             // Delete the "ClientSettings" folder and its contents
             string clientSettingsPath = Path.Combine(robloxPath, "ClientSettings");
-            if (Directory.Exists(clientSettingsPath))
-            {
+            if (Directory.Exists(clientSettingsPath)) {
                 Directory.Delete(clientSettingsPath, true);
                 MessageBox.Show("FPS unlocker disabled successfully.");
-            }
-            else
-            {
+            } else {
                 MessageBox.Show("FPS unlocker is already disabled.");
             }
         }

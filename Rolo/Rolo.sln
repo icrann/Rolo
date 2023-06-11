@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rolo", "Rolo\Rolo.csproj", "{0FCF4A62-832D-4E7F-953D-0156BDE86E99}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Rolo Setup", "Rolo Setup\Rolo Setup.vdproj", "{2F21E8A0-6037-4F10-B30D-B3BD58151B5E}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Rolo Setup", "Rolo Setup\Rolo Setup.vdproj", "{6D55183D-FC62-499B-A844-E30BBBA86667}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{0FCF4A62-832D-4E7F-953D-0156BDE86E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FCF4A62-832D-4E7F-953D-0156BDE86E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FCF4A62-832D-4E7F-953D-0156BDE86E99}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2F21E8A0-6037-4F10-B30D-B3BD58151B5E}.Debug|Any CPU.ActiveCfg = Debug
-		{2F21E8A0-6037-4F10-B30D-B3BD58151B5E}.Release|Any CPU.ActiveCfg = Release
+		{6D55183D-FC62-499B-A844-E30BBBA86667}.Debug|Any CPU.ActiveCfg = Debug
+		{6D55183D-FC62-499B-A844-E30BBBA86667}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
