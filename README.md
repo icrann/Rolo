@@ -17,4 +17,4 @@ I understand that Rolo is being flagged by antivirus software, therefore I've in
 <hr>
 
 <h3 style="color: grey;">Download Count</h3>
-500+ (Last Updated 24/04/2023)
+1000+ (Last Updated 08/06/2024)
