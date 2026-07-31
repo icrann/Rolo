@@ -1,7 +1,7 @@
 <h1>Rolo</h1>
 Roblox FPS Unlocker
 <br><br>
-⚠️ Important: Rolo will no longer be updated as Roblox now has official support for unlocking FPS.
+<strong style="color: yellow;">⚠️ Important: Rolo will no longer be updated as Roblox now has official support for unlocking FPS.</strong>
 
 
 <h2>Whats wrong with Axstin's FPS Unlocker</h2>
